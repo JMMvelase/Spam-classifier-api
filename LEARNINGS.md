@@ -33,3 +33,6 @@ A notebook model isn't a product. I learned how to wrap it in a FastAPI app, bui
 
 ## Takeaway
 Machine learning feels magical until you realize it's just math on numbers — and your whole job as the developer is deciding *which* numbers matter and feeding the model the right ones. This project turned that abstract idea into something I built, broke, and understood.
+
+##NEED FINETUNING 
+

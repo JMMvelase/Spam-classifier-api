@@ -16,11 +16,5 @@ Pandas
 NumPy
 Joblib
 Uvicorn
-Project Structure
-Spam-Detection-API/
-│
-├── main.py
-├── SpamModel.pkl
-├── vectorizer.pkl
-├── requirements.txt
-├── README.md
+
+You can put the spam from your emails to test

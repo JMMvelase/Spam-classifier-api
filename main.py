@@ -5,7 +5,7 @@ import joblib
 
 app = FastAPI()
 
-model = joblib.load("SpamModel.pkl")
+model = joblib.load("SpamModel_2.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
 
 

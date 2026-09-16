@@ -68,6 +68,8 @@ HTML = """
 <body>
     <h1>Spam Classifier</h1>
     <p class="subtitle">Paste a message below to check if it is spam.</p>
+    <p class="subtitle">You can use your emails to test the classifier.</p>
+
     <textarea id="text" placeholder="Type or paste your message here..."></textarea>
     <br>
     <button id="btn" onclick="predict()">Check message</button>

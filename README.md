@@ -27,3 +27,6 @@ Spam-Detection-API/
 ├── README.md
 
 You can put the spam from your emails to test
+
+learning CI/CD with this project
+ 

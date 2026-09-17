@@ -1,12 +1,14 @@
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
+from pathlib import Path
 import joblib
 
 app = FastAPI()
 
-model = joblib.load("SpamModel_2.pkl")
-vectorizer = joblib.load("vectorizer.pkl")
+BASE_DIR = Path(__file__).parent
+model = joblib.load(BASE_DIR / "SpamModel_2.pkl")
+vectorizer = joblib.load(BASE_DIR / "vectorizer.pkl")
 
 
 class Message(BaseModel):
